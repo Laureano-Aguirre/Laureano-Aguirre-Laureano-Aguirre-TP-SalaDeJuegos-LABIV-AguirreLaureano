@@ -1,0 +1,47 @@
+.form-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-login {
+  background: url('../../../images/sala-de-juegos-1.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+.ngForm {
+  background-color: rgba(239, 242, 247, 0.9);
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+mat-form-field {
+  /* max-width: 250px; */
+  width: 320px;
+}
+
+#button-login {
+  display: table-cell;
+  max-width: 600px;
+  background-color: rgb(56, 118, 233);
+  color: white;
+}
+
+.example-container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}

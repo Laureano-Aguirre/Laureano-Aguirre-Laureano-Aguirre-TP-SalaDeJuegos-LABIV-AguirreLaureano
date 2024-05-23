@@ -1,0 +1,9 @@
+.div-container-pag {
+  background: url('../../../images/img-home.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+  z-index: -1;
+}
